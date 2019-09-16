@@ -1,4 +1,1 @@
-#!/bin/sh
-/volume1/homes/saneparadox/rclone/rclone --config=/volume1/homes/saneparadox/.config/rclone/rclone.conf -cP --track-renames --exclude '.*{/**,}' sync CMgame:"Nintendo Switch"/CDN/base /volume1/"Resilio Sync"/base --log-level INFO --log-file /volume1/"Resilio Sync"/rclone.log
-/volume1/homes/saneparadox/rclone/rclone --config=/volume1/homes/saneparadox/.config/rclone/rclone.conf -cP --track-renames --exclude '.*{/**,}' sync CMgame:"Nintendo Switch"/CDN/updates /volume1/"Resilio Sync"/updates --log-level INFO --log-file /volume1/"Resilio Sync"/rclone.log
-/volume1/homes/saneparadox/rclone/rclone --config=/volume1/homes/saneparadox/.config/rclone/rclone.conf -cP --track-renames --exclude '.*{/**,}' sync CMgame:"Nintendo Switch"/CDN//dlc /volume1/"Resilio Sync"/dlc --log-level INFO --log-file /volume1/"Resilio Sync"/rclone.log
+path/to/file
