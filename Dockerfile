@@ -12,8 +12,7 @@ RUN apt-get install -y build-essential git curl python3.6 python3.6-dev python3-
 RUN python3.6 -m pip install pip --upgrade && \
         python3.6 -m pip install wheel
 
-RUN pip3 install colorama pyopenssl requests tqdm unidecode image bs4 urllib3 flask pyqt5
-
+RUN pip3 install colorama pyopenssl requests tqdm unidecode Pillow BeautifulSoup4 urllib3 Flask pyusb pyqt5 google-api-python-client google-auth-oauthlib
 
 RUN git clone https://github.com/blawar/nut /nut
 
