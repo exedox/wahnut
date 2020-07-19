@@ -15,7 +15,7 @@ RUN python3.6 -m pip install pip --upgrade && \
 
 RUN pip3 install colorama pyopenssl requests tqdm unidecode Pillow BeautifulSoup4 urllib3 Flask pyusb pyqt5 google-api-python-client google-auth-oauthlib
 
-RUN git clone https://github.com/blawar/nut /nut
+RUN git clone https://github.com/blawar/nut.git /nut
 
 COPY nut.conf /nut/conf/nut.conf
 
