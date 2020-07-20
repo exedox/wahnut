@@ -20,5 +20,4 @@ if [ -n "${NUT_PASSWD}" ]; then
   echo "Nut passwd set to ${NUT_PASSWD}"
 fi
 
-git pull
 python3.6 nut.py -S
